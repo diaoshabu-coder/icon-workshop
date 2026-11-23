@@ -1,0 +1,22 @@
+# Build outputs
+build/
+out/
+*.apk
+*.dex
+*.class
+
+# Generated / local-only assets
+app/assets/
+libs/
+.cache/
+
+# Signing material (never commit)
+*.keystore
+*.jks
+*.p12
+
+# IDE / OS noise
+.idea/
+*.iml
+.DS_Store
+Thumbs.db
